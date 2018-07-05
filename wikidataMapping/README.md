@@ -10,8 +10,11 @@ Wikidata Type - DBpedia Type Mapping
 
 ### How to run
 wikidata_dump.nt is file(https://dumps.wikimedia.org/wikidatawiki/entities/)
+<br>
 split -d -l {line number} wikidata_dump.nt wikidata_dumpPart_
+<br>
 cat wikidata_MappingTypePart_* > wikidata_MappingType.nt
+<br>
 `python3 classMapping.py`
 
 ## Maintainer
