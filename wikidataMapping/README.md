@@ -6,7 +6,7 @@ Wikidata Type - DBpedia Type Mapping
 
 ## prerequisite
 * `Python3`
-* Wikidata Dump File[download here](https://dumps.wikimedia.org/wikidatawiki/entities/)
+* Wikidata Dump File [download here](https://dumps.wikimedia.org/wikidatawiki/entities/)
 
 ## How to use
 refer `edu.kaist.mrlab.nn.pcnn.Main.java` and `PCNN.conf` files
