@@ -8,13 +8,18 @@ Wikidata Type - DBpedia Type Mapping
 * `Python3`
 * Wikidata Dump File [download here](https://dumps.wikimedia.org/wikidatawiki/entities/)
 
-### How to run
+## How to use
 wikidata_dump.nt is file(https://dumps.wikimedia.org/wikidatawiki/entities/)
 <br>
 split -d -l {line number} wikidata_dump.nt wikidata_dumpPart_
 <br>
 cat wikidata_MappingTypePart_* > wikidata_MappingType.nt
-<br>
+<br><br>
+equivalentClass is DBpedia Ontology Type equivalentClass wikidata entity type
+<br><br>
+sameAsWikidata.nt is DBpedia entity sameAs wikidata entity
+
+### How to run
 `python3 classMapping.py`
 
 ## Maintainer
